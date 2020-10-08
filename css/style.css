@@ -5,6 +5,7 @@ html, body{
     font-family: 'Raleway', sans-serif;
     color: #5a5959;
     background: #f9f9f9;
+    scroll-behavior: smooth;
 }
 
 .container {
