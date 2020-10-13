@@ -395,3 +395,12 @@ footer{
     font-size: 1.1em;
 }
 
+.link-tyc{
+    color: #5a5959;
+    text-decoration: none;
+}
+
+.link-tyc:hover{
+    color: #000;
+    text-decoration: underline;
+}
