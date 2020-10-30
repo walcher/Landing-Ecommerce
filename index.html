@@ -353,17 +353,17 @@
                             <div class="form-group">
                                 <label for="inputName">Nombre</label>
                                 <input type="text" class="form-control" id="inputName" aria-describedby="inputName">
-                                <small id="inputName" class="form-text text-muted alert-validation">Texto Error Validador</small>
+                                <small id="inputName" class="form-text text-muted alert-validation">Campo requerido</small>
                             </div>
                             <div class="form-group">
                                 <label for="inputLastname">Apellido</label>
                                 <input type="text" class="form-control" id="inputLastname">
-                                <small id="inputLastname" class="form-text text-muted alert-validation">Texto Error Validador</small>
+                                <small id="inputLastname" class="form-text text-muted alert-validation">Campo requerido</small>
                             </div>
                             <div class="form-group">
                                 <label for="inputEmail">Email</label>
                                 <input type="email" class="form-control" id="inputEmail">
-                                <small id="inputEmail" class="form-text text-muted alert-validation">Texto Error Validador</small>
+                                <small id="inputEmail" class="form-text text-muted alert-validation">Campo requerido</small>
                             </div>
                             <div class="form-group">
                                 <label for="inputPhone">Teléfono</label>
@@ -376,16 +376,22 @@
                             <div class="form-group">
                                 <label for="inputMensaje">Mensaje</label>
                                 <textarea class="form-control" id="inputMensaje" rows="7"></textarea>
-                                <small id="inputMensaje" class="form-text text-muted alert-validation">Texto Error Validador</small>
+                                <small id="inputMensaje" class="form-text text-muted alert-validation">Campo requerido</small>
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="checkTerms">
                                 <label class="form-check-label" for="checkTerms">Acepta <a href="terminos-y-condiciones.html" class="link-tyc">Términos y Condiciones</a></label>
-                                <small id="checkTerms" class="form-text text-muted alert-validation">Texto Error Validador</small>
+                                <small id="checkTerms" class="form-text text-muted alert-validation">Campo requerido</small>
                             </div>
                             <button type="submit" class="btn btn-form w-100">Enviar</button>
+                            <div class="mt-2 alert alert-success alert-dismissible fade show" role="alert">
+                                ¡Tu mensaje fue enviado exitosamente! GRACIAS POR CONTACTARNOS A la brevedad recibirá nuestra respuesta.
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
                             <div class="mt-2 alert alert-danger alert-dismissible fade show" role="alert">
-                                Texto error en el envío.
+                                Error al enviar el mensaje. Por favor, inténtalo de nuevo
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
